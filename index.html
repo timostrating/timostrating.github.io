@@ -20,12 +20,26 @@
         }
 
         .container > .row {
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid gray;
             padding-bottom: 3em;
             margin-bottom: 3em;
         }
         .row .row {
             margin-top: 1em;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .image {
+            line-height: 0;
+            min-height: 65%;
+            background-color: gray;
         }
     </style>
 </head>
@@ -33,12 +47,14 @@
 <body>
 
     <div class="page">
-
-        
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 text-center">
+                <div class="col-sm-12 text-center center">
                     <h1>Portfolio - <a href="https://github.com/timostrating">Timo Strating</a></h1>
+                    <ul>
+                        <li><a href="https://github.com/timostrating">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/timostrating">Linkedin</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="row">
@@ -48,7 +64,7 @@
                     <p><small>C++, OpenGL</small></p>
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <img src="pokemon.gif" alt="">
+                    <div class="image"><img src="pokemon.gif" alt=""></div>
                 </div>
             </div>
             <div class="row">
@@ -59,7 +75,7 @@
 
                 </div>
                 <div class="col-sm-12 col-md-8">
-                    <img src="parkingsimulator.gif" alt="">
+                    <div class="image"><img src="parkingsimulator.gif" alt=""></div>
                 </div>
             </div>
             
@@ -72,22 +88,22 @@
                     <p><small>C++, OpenGL</small></p>
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <img src="everyday.gif" alt="">
+                    <div class="image"><img src="everyday.gif" alt=""></div>
                 </div>
 
                 <div class="col-sm-12">
                     <div class="row">
                         <div class="col-sm-12 col-md-3">
-                            <img src="2019-11-26.gif" alt="">
+                            <div class="image"><img src="2019-11-26.gif" alt=""></div>
                         </div>
                         <div class="col-sm-12 col-md-3">
-                            <img src="2019-12-11.gif" alt="">
+                            <div class="image"><img src="2019-12-11.gif" alt=""></div>
                         </div>
                         <div class="col-sm-12 col-md-3">
-                            <img src="2020-09-20.gif" alt="">
+                            <div class="image"><img src="2020-09-20.gif" alt=""></div>
                         </div>
                         <div class="col-sm-12 col-md-3">
-                            <img src="2020-11-25.gif" alt="">
+                            <div class="image"><img src="2020-11-25.gif" alt=""></div>
                         </div>
                     </div>
                 </div>
@@ -103,17 +119,17 @@
                 <div class="col-sm-12">
                     <div class="row">
                         <div class="col-sm-12 col-md-4">
-                            <img src="gba.gif" alt="">
+                            <div class="image"><img src="gba.gif" alt=""></div>
                             <p> GameBoy Advance Game <a href="https://timostrating.github.io/Ludumdare46/"> play it here</a> / <a href="https://github.com/timostrating/Ludumdare46/">repo</a>
                             </p><p><small>C, Tonc</small></p>
                         </div>
                         <div class="col-sm-12 col-md-4">
-                            <img src="webgl.gif" alt="">
+                            <div class="image"><img src="webgl.gif" alt=""></div>
                             <p> Webgl game <a href="https://snappy-cobra.github.io/GGJ20/"> play it here</a> / <a href="https://github.com/snappy-cobra/GGJ20">repo</a>
                             </p><p><small>WebGL, Typescript</small></p>
                         </div>
                         <div class="col-sm-12 col-md-4">
-                            <img src="toiletboy.png" alt="">
+                            <div class="image"><img src="toiletboy.png" alt=""></div>
                             <p> GameBoy Advance Game <a href="https://snappy-cobra.github.io/GGJ19/"> play it here</a> / <a href="https://github.com/LucvandenBrand/GGJ19">repo</a>
                             </p><p><small>C, Tonc</small></p>
                         </div>
@@ -130,14 +146,12 @@
                     <p><small>C++, Java, Mathimatica, Python and Ruby</small></p>
 
                     <p style="margin-top: 1em;">
-                        <img src="ProjectEuler-Dashboard.png" alt="" width="100%">
+                        <div class="image"><img src="ProjectEuler-Dashboard.png" alt="" width="100%">
                     </p>
                 </div>
             </div>
         </div>
-        
     </div>
  
-
 </body>
 </html>
